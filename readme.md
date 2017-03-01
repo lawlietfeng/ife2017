@@ -86,45 +86,55 @@ task1.4 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
 
 水平垂直居中的几种办法
 
- 1. **负外边距(Negative Margins)**
+ - **负外边距(Negative Margins)**
+
   `position: absolute;
-    top:50%;
-    left: 50%;
-    margin-left: -（width+padding）/2;
-    margin-top: -（height+padding）/2 ;`
+  
+   top:50%;
+    
+   left: 50%;
+    
+   margin-left: -（width+padding）/2;
+    
+   margin-top: -（height+padding）/2 ;`
+    
 优点：
 
-1.良好的跨浏览器特性，兼容IE6-IE7。
+.良好的跨浏览器特性，兼容IE6-IE7。
 
-2.代码量少。
+.代码量少。
 
 缺点：
 
-1.不能自适应。不支持百分比尺寸和min-/max-属性设置。
+.不能自适应。不支持百分比尺寸和min-/max-属性设置。
 
-2.内容可能溢出容器。
+.内容可能溢出容器。
 
-3.边距大小与padding,和是否定义box-sizing: border-box有关，计算需要根据不同情况。
+.边距大小与padding,和是否定义box-sizing: border-box有关，计算需要根据不同情况。
 
- 2. **Flexbox**
-`display: flex;
-justify-content: center;
-align-items: center;`
+ - **Flexbox**
+
+ `display: flex;
+ 
+ justify-content: 
+ 
+ center;align-items: center;`
+
 优点：
 
-1.内容块的宽高任意，优雅的溢出。
+.内容块的宽高任意，优雅的溢出。
 
-2.可用于更复杂高级的布局技术中。
+.可用于更复杂高级的布局技术中。
 
 缺点：
 
-1.IE8/IE9不支持。
+.IE8/IE9不支持。
 
-2.Body需要特定的容器和CSS样式。
+.Body需要特定的容器和CSS样式。
 
-3.运行于现代浏览器上的代码需要浏览器厂商前缀。
+.运行于现代浏览器上的代码需要浏览器厂商前缀。
 
-4.表现上可能会有一些问题
+.表现上可能会有一些问题
 
 其他居中的办法：http://blog.csdn.net/freshlover/article/details/11579669
     
