@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 20px;
+}
+body{
+    min-width: 720px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.div1{
+    background-color: #eee;
+    border: 1px solid #999;
+    overflow: auto;
+}
+.div2{
+    width: 158px;
+    background-color: #fff;
+    border: 1px solid #999;
+    position: relative;
+}
+.div3{
+    background-color: #fff;
+    border: 1px solid #999;
+    margin: 0 140px 0 220px;
+}
+.div3 p{
+    padding: 0;
+}
+.div4{
+    width: 78px;
+    background-color: #fff;
+    border: 1px solid #999;
+}
+.div4 img{
+    padding: 0 0 10px 0;
+    height: 80px;
+    width: 80px;
+}
+.div4  img:nth-last-child(1){
+    padding: 0;
+}
+.div2 img{
+    padding: 0;
+    height: 80px;
+    width: 80px;
+}
+.div2 span{
+    padding: 0;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    line-height: 12px;
+}
