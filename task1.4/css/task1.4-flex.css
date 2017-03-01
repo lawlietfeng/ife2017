@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+.box1{
+    height: 200px;
+    width: 400px;
+    background-color: #ccc;
+    position: relative;
+}
+.circular1{
+    height: 50px;
+    width: 50px;
+    background-color: #fc0;
+    border-bottom-right-radius: 50px;
+}
+.circular2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    background-color: #fc0;
+    border-top-left-radius: 50px;
+}
