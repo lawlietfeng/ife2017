@@ -47,8 +47,11 @@ task1.4 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
  - 字体unicode编码网址：http://code.ciaoca.com/style/cssfont2unicode/
  
  在 CSS 中设置字体名称，直接写中文是可以的。但是在文件编码（GB2312、UTF-8 等）不匹配时会产生乱码的错误。为此，在 CSS 直接使用 Unicode 编码来写字体名称可以避免这些错误。使用 Unicode 写中文字体名称，浏览器是可以正确的解析的。
+ 
  - 无序列表`ul>li`最左的圆点可以用`list-style-type:none`来去掉。
-
+ 
+ - 表单要被form所包裹，不能漏啦！！
+ 
 ###**task1.3 三栏式布局**
 
  - `overflow`  ：属性规定当内容溢出元素框时发生的事情
