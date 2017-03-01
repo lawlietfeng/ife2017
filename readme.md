@@ -7,6 +7,11 @@ task1.1 在线预览地址：http://htmlpreview.github.com/?https://github.com/l
 task1.2 任务要求地址：https://github.com/lawlietfeng/ife2017/tree/master/task1.2
 
 task1.2 在线预览地址：http://htmlpreview.github.com/?https://github.com/lawlietfeng/ife2017/blob/master/task1.2/task1.2.html
+
+task1.3 任务要求地址：https://github.com/lawlietfeng/ife2017/tree/master/task1.3
+
+task1.3 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.3/task1.3.html
+
 ###**notes**
 ###**task1.1 面向零基础的HTML代码编写**
 
@@ -39,3 +44,33 @@ task1.2 在线预览地址：http://htmlpreview.github.com/?https://github.com/l
  
  在 CSS 中设置字体名称，直接写中文是可以的。但是在文件编码（GB2312、UTF-8 等）不匹配时会产生乱码的错误。为此，在 CSS 直接使用 Unicode 编码来写字体名称可以避免这些错误。使用 Unicode 写中文字体名称，浏览器是可以正确的解析的。
  - 无序列表`ul>li`最左的圆点可以用`list-style-type:none`来去掉。
+
+###**task1.3 三栏式布局**
+
+ - `overflow`  ：属性规定当内容溢出元素框时发生的事情
+ 
+**visible**	默认值。内容不会被修剪，会呈现在元素框之外。
+
+**hidden**	内容会被修剪，并且其余内容是不可见的。
+
+**scroll**	内容会被修剪，但是浏览器会显示滚动条以便查看其余的内容。
+
+**auto**	如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容。
+
+**inherit**	规定应该从父元素继承 overflow 属性的值。
+
+这里使用`overflow: auto;`来包裹子元素，让父元素跟随子元素的变化而变化
+
+ - `position`属性
+ 
+**inhert** 从父元素继承position属性值
+
+**static** 默认值
+
+**relative** 相对定位，相对于元素本身定位，例如：`left:20px;`此时是针对元素自身左移20px。
+
+**absolute** 绝对定位，相对于 **static** 定位以外的第一个祖先元素进行定位。元素的位置通过 **"left", "top", "right" 以及 "bottom"** 属性进行规定。
+
+**fixed** 相对于浏览器窗口的绝对定位，例如屠龙宝刀点击就送类型的跟随窗口的广告就是这样定位的。
+
+ - `float`浮动的各种应用场景：http://www.cnblogs.com/dolphinX/archive/2012/10/13/2722501.html
