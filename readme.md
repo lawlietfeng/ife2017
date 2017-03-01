@@ -12,6 +12,10 @@ task1.3 任务要求地址：https://github.com/lawlietfeng/ife2017/tree/master/
 
 task1.3 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.3/task1.3.html
 
+task1.4 任务要求地址：https://github.com/lawlietfeng/ife2017/tree/master/task1.4
+
+task1.4 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.4/task1.4-flax.html
+
 ###**notes**
 ###**task1.1 面向零基础的HTML代码编写**
 
@@ -74,3 +78,50 @@ task1.3 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
 **fixed** 相对于浏览器窗口的绝对定位，例如屠龙宝刀点击就送类型的跟随窗口的广告就是这样定位的。
 
  - `float`浮动的各种应用场景：http://www.cnblogs.com/dolphinX/archive/2012/10/13/2722501.html
+
+###**task1.4 定位和居中问题**
+
+水平垂直居中的几种办法
+
+ 1. **负外边距(Negative Margins)**
+  `position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -（width+padding）/2;
+    margin-top: -（height+padding）/2 ;`
+优点：
+
+1.良好的跨浏览器特性，兼容IE6-IE7。
+
+2.代码量少。
+
+缺点：
+
+1.不能自适应。不支持百分比尺寸和min-/max-属性设置。
+
+2.内容可能溢出容器。
+
+3.边距大小与padding,和是否定义box-sizing: border-box有关，计算需要根据不同情况。
+
+ 2. **Flexbox**
+`display: flex;
+justify-content: center;
+align-items: center;`
+优点：
+
+1.内容块的宽高任意，优雅的溢出。
+
+2.可用于更复杂高级的布局技术中。
+
+缺点：
+
+1.IE8/IE9不支持。
+
+2.Body需要特定的容器和CSS样式。
+
+3.运行于现代浏览器上的代码需要浏览器厂商前缀。
+
+4.表现上可能会有一些问题
+
+其他居中的办法：http://blog.csdn.net/freshlover/article/details/11579669
+    
