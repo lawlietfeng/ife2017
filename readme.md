@@ -11,6 +11,7 @@ task1.4 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
 
 task1.5 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.5/task1.5.html
 
+task1.6 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.6/task1.6.html
 ###**notes**
 ###**task1.1 面向零基础的HTML代码编写**
 
@@ -140,4 +141,11 @@ task1.5 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
  - 本来想试试那个`display:table`和`display:table-cell`的，好用是好用。但是不熟，发现有的div设置了margin什么的都会无效，所以没继续用了。
  - 暂时不考虑兼容问题，ie9以上是没有问题的。
 
+###**task1.4 通过HTML及CSS模拟报纸排版**
+
+ - `opacity`:设置透明度1~0逐渐消失
+ - [用css制作三角形][2]
+
+
   [1]: http://jo2.org/css-auto-adapt-width/
+  [2]: http://www.jb51.net/article/42513.htm
