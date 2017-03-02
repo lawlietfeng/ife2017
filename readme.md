@@ -1,20 +1,15 @@
 #ife 2017
 ##Demo
-task1.1 任务要求地址：https://github.com/lawlietfeng/ife2017/tree/master/task1.1
 
 task1.1 在线预览地址：http://htmlpreview.github.com/?https://github.com/lawlietfeng/ife2017/blob/master/task1.1/.idea/task1.1.html
 
-task1.2 任务要求地址：https://github.com/lawlietfeng/ife2017/tree/master/task1.2
-
 task1.2 在线预览地址：http://htmlpreview.github.com/?https://github.com/lawlietfeng/ife2017/blob/master/task1.2/task1.2.html
-
-task1.3 任务要求地址：https://github.com/lawlietfeng/ife2017/tree/master/task1.3
 
 task1.3 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.3/task1.3.html
 
-task1.4 任务要求地址：https://github.com/lawlietfeng/ife2017/tree/master/task1.4
-
 task1.4 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.4/task1.4-flax.html
+
+task1.5 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.5/task1.5.html
 
 ###**notes**
 ###**task1.1 面向零基础的HTML代码编写**
@@ -24,7 +19,7 @@ task1.4 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
  - `colspan="2"`属性规定单元格可横跨的列数，这里为2列
  - H5属性`placeholder`属性提供可描述输入字段预期值的提示信息（hint）。该提示会在输入字段为空时显示，并会在字段获得焦点时消失。
 #### **对于html语义化的理解** 
-根据内容的结构化（内容语义化），选择合适的标签（代码语义化）便于开发者阅读和写出更优雅的代码的![此处输入图片的描述][1]同时让浏览器的爬虫和机器很好地解析。
+根据内容的结构化（内容语义化），选择合适的标签（代码语义化）便于开发者阅读和写出更优雅的代码的!同时让浏览器的爬虫和机器很好地解析。
 为了在没有css的情况下页面也能呈现出比较好的内容。
 对于用户体验更好，例如`title`、`alt`用于解释名词或解释图片信息、`label`标签的活用。
 有利于**SEO**，让网页和搜索引擎建立良好沟通，有助于爬虫抓取更多的有效信息，爬虫依赖于标签来确定上下文和各个关键字的权重。
@@ -138,3 +133,11 @@ task1.4 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
 
 其他居中的办法：http://blog.csdn.net/freshlover/article/details/11579669
     
+###**task1.4 零基础HTML及CSS编码（二）**
+
+ - 用一个div层包裹左边的元素，然后让右边的元素向右浮动，再加上overflow的效果来包裹住因为页面放大缩小之后而变化位置的图片栏就完成了。
+ - 可以参考这个网站[老生长谈：css实现右侧固定宽度，左侧宽度自适应][1]说的。
+ - 本来想试试那个`display:table`和`display:table-cell`的，好用是好用。但是不熟，发现有的div设置了margin什么的都会无效，所以没继续用了。
+ - 暂时不考虑兼容问题，ie9以上是没有问题的。
+
+  [1]: http://jo2.org/css-auto-adapt-width/
