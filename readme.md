@@ -145,7 +145,7 @@ task1.6 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
 
  - `opacity`:设置透明度1~0逐渐消失
  - [用css制作三角形][2]
-
+ - `background: url(地址)`:这个地址相对应的是css的位置
 
   [1]: http://jo2.org/css-auto-adapt-width/
   [2]: http://www.jb51.net/article/42513.htm
