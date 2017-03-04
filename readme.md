@@ -12,6 +12,9 @@ task1.4 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
 task1.5 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.5/task1.5.html
 
 task1.6 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.6/task1.6.html
+
+task1.7 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.7/task1.7.html
+
 ###**notes**
 ###**task1.1 面向零基础的HTML代码编写**
 
@@ -84,15 +87,15 @@ task1.6 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
 
  - **负外边距(Negative Margins)**
 
-  `position: absolute;
-  
-   top:50%;
-    
-   left: 50%;
-    
-   margin-left: -（width+padding）/2;
-    
-   margin-top: -（height+padding）/2 ;`
+      `position: absolute;`
+      
+       `top:50%;`
+        
+       `left: 50%;`
+        
+       `margin-left: -（width+padding）/2;`
+        
+       `margin-top: -（height+padding）/2 ;`
     
 优点：
 
@@ -110,11 +113,11 @@ task1.6 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
 
  - **Flexbox**
 
- `display: flex;
+ `display: flex;`
  
- justify-content: 
+ `justify-content: `
  
- center;align-items: center;`
+ `center;align-items: center;`
 
 优点：
 
@@ -134,18 +137,23 @@ task1.6 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
 
 其他居中的办法：http://blog.csdn.net/freshlover/article/details/11579669
     
-###**task1.4 零基础HTML及CSS编码（二）**
+###**task1.5 零基础HTML及CSS编码（二）**
 
  - 用一个div层包裹左边的元素，然后让右边的元素向右浮动，再加上overflow的效果来包裹住因为页面放大缩小之后而变化位置的图片栏就完成了。
  - 可以参考这个网站[老生长谈：css实现右侧固定宽度，左侧宽度自适应][1]说的。
  - 本来想试试那个`display:table`和`display:table-cell`的，好用是好用。但是不熟，发现有的div设置了margin什么的都会无效，所以没继续用了。
  - 暂时不考虑兼容问题，ie9以上是没有问题的。
 
-###**task1.4 通过HTML及CSS模拟报纸排版**
+###**task1.6 通过HTML及CSS模拟报纸排版**
 
  - `opacity`:设置透明度1~0逐渐消失
  - [用css制作三角形][2]
  - `background: url(地址)`:这个地址相对应的是css的位置
+
+###**task1.7 实现常见的技术产品官网的页面架构及样式布局**
+
+ - `background-size: cover;`：把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。背景图像的某些部分也许无法显示在背景定位区域中。
+ - 复选框的样式用`select`修改比较麻烦，所以直接用div来做复选框，后台用js来触发点击事件来控制让选择栏的`display`属性`none`/`block`来显示或者消失。
 
   [1]: http://jo2.org/css-auto-adapt-width/
   [2]: http://www.jb51.net/article/42513.htm
