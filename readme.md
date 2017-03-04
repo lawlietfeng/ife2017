@@ -15,6 +15,8 @@ task1.6 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
 
 task1.7 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.7/task1.7.html
 
+task1.8 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.8/task1.8.html
+
 ###**notes**
 ###**task1.1 面向零基础的HTML代码编写**
 
@@ -155,5 +157,13 @@ task1.7 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
  - `background-size: cover;`：把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。背景图像的某些部分也许无法显示在背景定位区域中。
  - 复选框的样式用`select`修改比较麻烦，所以直接用div来做复选框，后台用js来触发点击事件来控制让选择栏的`display`属性`none`/`block`来显示或者消失。
 
+###**task1.8 响应式网格（栅格化）布局**
+
+ - 我的理解是通过`@media`查询不同的屏幕大小来给同一个元素设置不同的样式
+ - 效果图要求间距是`20px`由于bootstrap里面的间距都是`0`我在里面添加一个`inner`，让父元素添加padding来实现间距
+ - [bootstrap全局css样式][3]
+
+
   [1]: http://jo2.org/css-auto-adapt-width/
   [2]: http://www.jb51.net/article/42513.htm
+  [3]: http://v3.bootcss.com/css/
