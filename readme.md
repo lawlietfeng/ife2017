@@ -17,6 +17,8 @@ task1.7 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
 
 task1.8 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.8/task1.8.html
 
+task1.9 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.9/task1.9.html
+
 ###**notes**
 ###**task1.1 面向零基础的HTML代码编写**
 
@@ -162,8 +164,15 @@ task1.8 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
  - 我的理解是通过`@media`查询不同的屏幕大小来给同一个元素设置不同的样式
  - 效果图要求间距是`20px`由于bootstrap里面的间距都是`0`我在里面添加一个`inner`，让父元素添加padding来实现间距
  - [bootstrap全局css样式][3]
+###**task1.9 使用HTML/CSS实现一个复杂页面**
+
+ - 利用css实现icon感觉比较麻烦，以后直接去[iconfont][4]网站里面取需要的图标。
+ - 以后的前置工作一点要做好，比如规范默认字体样式，规范默认字体大小。
+ - [一个完整的Flexbox指南][5]
 
 
   [1]: http://jo2.org/css-auto-adapt-width/
   [2]: http://www.jb51.net/article/42513.htm
   [3]: http://v3.bootcss.com/css/
+  [4]: http://www.iconfont.cn/
+  [5]: http://www.w3cplus.com/css3/a-guide-to-flexbox.html
