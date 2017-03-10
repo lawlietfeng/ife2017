@@ -19,6 +19,8 @@ task1.8 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
 
 task1.9 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.9/task1.9.html
 
+task1.10 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.10/task1.10.html
+
 ###**notes**
 ###**task1.1 面向零基础的HTML代码编写**
 
@@ -168,8 +170,10 @@ task1.9 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
 
  - 利用css实现icon感觉比较麻烦，以后直接去[iconfont][4]网站里面取需要的图标。
  - 以后的前置工作一点要做好，比如规范默认字体样式，规范默认字体大小。
- - [一个完整的Flexbox指南][5]
+###**task1.10 Flexbox 布局练习**
 
+ - 第一次接触flex发现了新大陆，以后尽量多用用，居中暴力简单，父元素`display:flex;`子元素`margin:auto;`就搞定。
+ - [一个完整的Flexbox指南][5]
 
   [1]: http://jo2.org/css-auto-adapt-width/
   [2]: http://www.jb51.net/article/42513.htm
