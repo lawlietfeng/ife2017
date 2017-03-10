@@ -159,7 +159,7 @@ nav ul li a{
 .section3 .div2{
     margin: 0 0 2vh 2vh;
     height: 9vh;
-    width: 47%;
+    width: 43%;
     background-color: #ccc;
     font: 3vh/9vh \9ED1\4F53;;
     text-align: center;
@@ -200,7 +200,7 @@ nav ul li a{
 .section4 .div2{
     margin: 0 0 2vh 2vh;
     height: 9vh;
-    width: 47%;
+    width: 43%;
     background-color: #ccc;
     font: 3vh/9vh \9ED1\4F53;
     text-align: center;
@@ -227,7 +227,7 @@ nav ul li a{
     bottom: 0;
 }
 .section5 article .div1{
-    width: 25vh;
+    width: 25%;
     height: 20vh;
     background-color: #aaa;
 }
@@ -239,7 +239,7 @@ nav ul li a{
 }
 .section5 article .div2{
     position: relative;
-    width: 71%;
+    width: 70%;
     height: 20vh;
 }
 
@@ -265,7 +265,7 @@ nav ul li a{
     bottom: 0;
 }
 .section6 article .div1{
-    width: 25vh;
+    width: 25%;
     height: 20vh;
     background-color: #aaa;
 }
@@ -277,7 +277,7 @@ nav ul li a{
 }
 .section6 article .div2{
     position: relative;
-    width: 71%;
+    width: 70%;
     height: 20vh;
 }
 .section7{
@@ -294,7 +294,7 @@ nav ul li a{
     width: 100%;
 }
 .section7 .box div{
-    width: 25vh;
+    width: 30%;
     height: 20vh;
     background-color: #aaa;
 }
