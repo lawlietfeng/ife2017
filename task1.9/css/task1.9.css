@@ -615,7 +615,7 @@ body{
 }
 .div1-max-box4-left-choose table{
     margin: 28px auto;
-    border: 1px solid #eee;
+    border: 1px solid #000;
     border-collapse: collapse;
 }
 .div1-max-box4-left-choose td{
@@ -882,7 +882,7 @@ body{
     padding: 16px 38px;
 }
 .div1-max-box5-right table{
-    border: 1px solid #ccc;
+    border: 1px solid #000;
     border-collapse: collapse;
 }
 .div1-max-box5-right tr{
