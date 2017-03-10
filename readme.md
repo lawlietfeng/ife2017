@@ -21,6 +21,8 @@ task1.9 在线预览地址：http://htmlpreview.github.io/?https://github.com/la
 
 task1.10 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.10/task1.10.html
 
+task1.11 在线预览地址：http://htmlpreview.github.io/?https://github.com/lawlietfeng/ife2017/blob/master/task1.11/task1.11.html
+
 ###**notes**
 ###**task1.1 面向零基础的HTML代码编写**
 
@@ -175,8 +177,16 @@ task1.10 在线预览地址：http://htmlpreview.github.io/?https://github.com/l
  - 第一次接触flex发现了新大陆，以后尽量多用用，居中暴力简单，父元素`display:flex;`子元素`margin:auto;`就搞定。
  - [一个完整的Flexbox指南][5]
 
+###**task1.11 移动Web页面布局实践**
+
+ - ife里面给的链接都很好，学习到很多东西类似这个：[手机/移动前端开发需要注意的20个要点][6]
+ - 网页中尤其是需要自适应的网页中字体的单位可以选择`vw(viewport-width)`或`vh(viewport-height)`，CSS3实现的响应式字体。
+ - 移动端布置最好要舍弃掉`float`，这边使用`flex`布局方便点，现在还是不太熟练，多做点东西就会适应了。
+
+
   [1]: http://jo2.org/css-auto-adapt-width/
   [2]: http://www.jb51.net/article/42513.htm
   [3]: http://v3.bootcss.com/css/
   [4]: http://www.iconfont.cn/
   [5]: http://www.w3cplus.com/css3/a-guide-to-flexbox.html
+  [6]: http://sentsin.com/web/54.html
